@@ -6,7 +6,16 @@ supported by other proof-of-concepts.
 
 See our paper [Reverse-Engineering Bank Addressing Functions on AMD
 CPUs](https://dramsec.ethz.ch/papers/revengamd.pdf) for a detailed description
-of the approach and results of this tool.
+of the approach and results of this tool. Please cite it as following:
+
+```
+@inproceedings{heckel:amdre:2023,
+  title     = {{Reverse-Engineering Bank Addressing Functions on AMD CPUs}},
+  author    = {Heckel, Martin and Adamsky, Florian},
+  booktitle = {Proceedings of the the 3rd Workshop on DRAM Security (DRAMSec 2023), co-located with ISCA},
+  date      = {2023},
+}
+```
 
 ## Usage
 The tool `amdre` should be executed as root. Run the following command for a
